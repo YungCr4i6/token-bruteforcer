@@ -5,7 +5,7 @@ import string
 import requests
 from colorama import *
 
-os.system("title Discord Token Picker By Naume")
+os.system("title Discord Token Bruteforcer By Naume")
 
 ide = pybase64.b64encode((input("Id of the member:")).encode("ascii"))
 ide = str(ide)[2:-1]
